@@ -1,0 +1,13 @@
+<div class ="container lform">
+<p><strong>Temperature Converted</strong></p>
+
+<p><strong>Farenenhiet:</strong></p> <input id="input1" type = "number" [(ngModel)]="farenheit" (ngModelChange)="convertToC()">
+<button id="butt1" (click)="convertToC()"><strong>Convert to C</strong></button>
+<br>
+<p><strong>Celcius:</strong></p> <input id="input2" type="number" [(ngModel)]="celcius" (ngModelChange)="convertToF()">
+<button id="butt2" (click)="convertToF()"><strong>Convert to F</strong></button>
+<br>
+
+
+
+</div>
